@@ -25,7 +25,7 @@
     border-radius: 1rem;
 }
 .bg-custom-dark-blue {
-    background-color: rgb(27, 79, 114);
+    background-color: rgb(0,0,128);
 }
 .bg-custom-dark-black {
     background-color: black;
@@ -34,7 +34,7 @@
     transition: all 0.4s;
 }
 .navbar.active {
-    background: white;
+    background: rgb(0,0,128);
     box-shadow: 0 .2rem .2rem rgb(148, 148, 148);
 }
 .navbar-brand,
@@ -47,15 +47,16 @@
     height: 3.15rem;
 }
 .nav-item,
-.flag-icon {
+.flag-icon {    
+    color: white;
     padding: .5rem;    
 }
 .nav-item-language {
-    color: rgb(0, 0, 0);
+    color: white;
 }
 .nav-item-language.active,
 .nav-item-language:hover {
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;  
     font-weight: 600;
 }
