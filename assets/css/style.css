@@ -1,3 +1,7 @@
+body {
+    font-family: Imprint MT Shadow;
+    src: url("http://db.onlinewebfonts.com/t/b27d4ad5fd7f7c5044c7cbbf2dad758d.ttf") format("truetype"); /* chrome firefox opera Safari, Android, iOS 4.2+*/
+}
 .full-height {
     height: 100vh;
 }
