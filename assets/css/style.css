@@ -2,6 +2,7 @@ body {
     background-image: url("../img/backgroundImage.jpg");
     background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-color:rgb(0,0,128);
     font-family: Imprint MT Shadow;
