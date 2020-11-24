@@ -1,0 +1,70 @@
+.full-height {
+    height: 100vh;
+}
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.position-ref {
+    position: relative;
+}
+.carousel-caption {
+    position: absolute;
+    top: 54%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+.carousel-caption h1 {
+    font-size: 3.8rem;
+    text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+}
+.bg-custom {
+    background-color: rgba(0, 0, 0, .4);
+    color: #fff;
+    border-radius: 1rem;
+}
+.bg-custom-dark-blue {
+    background-color: rgb(0, 0, 129);
+}
+.bg-custom-dark-black {
+    background-color: black;
+}
+.navbar {
+    transition: all 0.4s;
+}
+.navbar.active {
+    background: white;
+    box-shadow: 0 .2rem .2rem rgb(148, 148, 148);
+}
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link.active,
+.nav-link:hover {  
+    font-weight: 600;
+}
+.navbar-brand img {
+    height: 3.15rem;
+}
+.nav-item,
+.flag-icon {
+    padding: .5rem;    
+}
+.nav-item-language {
+    color: rgb(0, 0, 0);
+}
+.nav-item-language.active,
+.nav-item-language:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;  
+    font-weight: 600;
+}
+@media (max-width: 991.98px) {
+    .navbar {
+        background: rgb(255, 255, 255);
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
