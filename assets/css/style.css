@@ -1,4 +1,10 @@
 body {
+    background-image: url("../img/backgroundImage.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:rgb(0,0,128);
     font-family: Imprint MT Shadow;
     src: url("assets\css\Imprint-MT-Shadow.ttf") format("truetype");
 }
@@ -13,14 +19,11 @@ body {
 .position-ref {
     position: relative;
 }
-.carousel-caption {
-    position: absolute;
-    top: 54%;
-    transform: translateY(-50%);
+.pealeht {
     text-transform: uppercase;
 }
-.carousel-caption h1 {
-    font-size: 3.8rem;
+.pealeht h1 {
+    font-size: 2.8rem;
     text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
 }
 .bg-custom {
@@ -68,8 +71,10 @@ body {
     .navbar {
         background: transparent;
     }
-
+    .collapse {
+        background: rgb(0,0,128);
+    }
     .navbar .navbar-brand, .navbar .nav-link {
-        color: #555;
+        color: white;
     }
 }
