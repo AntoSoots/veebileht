@@ -24,23 +24,25 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a href="#pealeht" class="nav-link text-white js-scroll-trigger text-uppercase active">Pealeht</a>
+                          <a href="#pealeht" class="nav-link text-white js-scroll-trigger text-uppercase home active">Pealeht</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#teenused" class="nav-link text-white js-scroll-trigger text-uppercase">Teenused</a>
+                          <a href="#teenused" class="nav-link text-white js-scroll-trigger servicesMenu text-uppercase">Teenused</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#meist" class="nav-link text-white js-scroll-trigger text-uppercase">Meist</a>
+                          <a href="#meist" class="nav-link text-white js-scroll-trigger aboutMenu text-uppercase">Meist</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#hinnaparing" class="nav-link text-white js-scroll-trigger text-uppercase">Hinnapäring</a>
+                          <a href="#hinnaparing" class="nav-link text-white js-scroll-trigger pricesMenu text-uppercase">Hinnapäring</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#kontakt" class="nav-link text-white js-scroll-trigger text-uppercase">Kontakt</a>
+                          <a href="#kontakt" class="nav-link text-white js-scroll-trigger contactMenu text-uppercase">Kontakt</a>
                         </li>
-                        <a class="nav-item-language text-uppercase active p-2" href=""><span class="flag-icon flag-icon-ee"> </span>Est</a>
-                        <a class="nav-item-language text-uppercase p-2" href=""><span class="flag-icon flag-icon-us"> </span>Eng</a>
-                        <a class="nav-item-language text-uppercase p-2" href=""><span class="flag-icon flag-icon-ru"> </span>Rus</a>
+                        <div class="langWrap p-2">
+                          <a class="nav-item-language text-uppercase active" language="eesti" href="#"><span class="flag-icon flag-icon-ee"> </span>Est</a>
+                          <a class="nav-item-language text-uppercase" language="english" href="#"><span class="flag-icon flag-icon-us"> </span>Eng</a>
+                          <a class="nav-item-language text-uppercase" language="russian" href="#"><span class="flag-icon flag-icon-ru"> </span>Rus</a>
+                        </div>
                     </ul>
                 </div>            
             </div>
@@ -51,7 +53,7 @@
       <div class="container flex-center position-ref full-height">
         <div class="row justify-content-center text-center">
           <div class="col-lg-8 bg-custom py-3">
-            <h1>Siia tuleb lööklause</h1>
+            <h1 class="title">Siia tuleb lööklause</h1>
           </div>
         </div>
       </div>
@@ -61,8 +63,8 @@
         <div class="container flex-center position-ref full-height">
           <div class="row text-center">
             <div class="col-lg-8 mx-auto">
-              <h2>Teenused</h2>
-              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ducimus eaque doloribus laborum distinctio aperiam hic voluptatibus quas, accusantium commodi odit itaque quibusdam placeat culpa vitae ut, fugiat quae totam.</p>
+              <h2 class="services">Teenused</h2>
+              <p class="lead servicesText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ducimus eaque doloribus laborum distinctio aperiam hic voluptatibus quas, accusantium commodi odit itaque quibusdam placeat culpa vitae ut, fugiat quae totam.</p>
             </div>
           </div>
         </div>
@@ -72,8 +74,8 @@
         <div class="container flex-center position-ref full-height">
           <div class="row text-center">
             <div class="col-lg-8 mx-auto">
-              <h2>Meist</h2>
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+              <h2 class="about">Meist</h2>
+              <p class="lead aboutText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
             </div>
           </div>
         </div>
@@ -83,8 +85,8 @@
         <div class="container flex-center position-ref full-height">
           <div class="row text-center">
             <div class="col-lg-8 mx-auto">
-              <h2>Hinnapäring</h2>
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+              <h2 class="prices">Hinnapäring</h2>
+              <p class="lead pricesText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
             </div>
           </div>
         </div>
@@ -94,8 +96,8 @@
         <div class="container flex-center position-ref full-height">
           <div class="row text-center">
             <div class="col-lg-8 mx-auto">
-              <h2>Kontakt</h2>
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+              <h2 class="contact">Kontakt</h2>
+              <p class="lead contactText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
             </div>
           </div>
         </div>
@@ -103,22 +105,29 @@
 
     <footer class="page-footer bg-custom-dark-black text-white p-5">
         <div class="footer-data">
-            <h3><strong>LuxM OÜ</strong></h3>
-            <p>Registrikood: 123456789<br />
-                KMKR: EE123456789<br />
-                A/A: EE123456789123456789<br />
-                SEB Pank</p>
+          <div class="company-name">
+            <span>LuxM OÜ</span>
+          </div>
+          <div class="registerCode">Registrikood: 123456789
+          </div>
+          <div class="vat">KMKR: 123456789
+          </div>
+          <div class="bank">A/A: EE123456789123456789
+          </div>
+          <div class="bank-name">SEB Pank
+          </div>
         </div>
         <div class="footer-data-links" >
             <a href="mailto:info@firmanimi.ee" class=" text-white"><i class="fas fa-envelope"></i>info@firmanimi.ee</a><br />
             <a href="tel:+3724444444" class=" text-white"><i class="fas fa-phone fa-rotate-90"></i>+372 44 444 44</a>
         </div>
     </footer>
-    
+
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>    
+    <script src="assets/js/lang.js"></script>
 
 </body>
 </html>
