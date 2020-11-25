@@ -68,11 +68,15 @@ body {
     font-weight: 600;
 }
 @media (max-width: 991.98px) {
+    body {
+    font-family: Imprint MT Shadow;
+    src: url("assets\css\Imprint-MT-Shadow.ttf") format("truetype");
+}
     .navbar {
         background: transparent;
     }
     .collapse {
-        background: rgb(0,0,128);
+        background: rgba(0, 0, 0, .4);
     }
     .navbar .navbar-brand, .navbar .nav-link {
         color: white;
