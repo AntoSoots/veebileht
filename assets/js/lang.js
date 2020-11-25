@@ -62,20 +62,6 @@ var data = {
         "description":
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mõlemad võimalused, mida ta soovib selle selgitamisel avastada, on kõik, mis me võime elu tagajärgede ja muredeni jõuda. Ärgem laske kellelgi tegutseda ega soovi tööd proovida."
     },
-    "english": 
-    {
-        "home": "Home",
-        "services": "Services",
-        "about": "About",
-        "prices": "Price inquiry",
-        "contact": "Contact",
-        "registerCode": "Registry code: 123456789",
-        "vat": "VAT number: 123456789",        
-        "bank": "Bank account: EE123456789123456789",
-        "title": "Here comes the slogan!",
-        "description":
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos."
-    },
     "russian": 
     {
         "home": "Главная страница",
