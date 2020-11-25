@@ -77,6 +77,8 @@ body {
     }
     .collapse {
         background: rgba(0, 0, 0, .4);
+        border-radius: 25px;
+        border-radius: 1rem
     }
     .navbar .navbar-brand, .navbar .nav-link {
         color: white;
