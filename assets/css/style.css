@@ -71,9 +71,9 @@ body {
         background: transparent;
     }
     .navbar .collapse {
-        background: rgba(0, 0, 0, .4);
-        border-radius: 25px;
-        border-radius: 1rem        
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border-radius: 25px;         
     }
     .navbar.active .collapse {
         background: rgb(0,0,128);
