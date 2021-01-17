@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/backgroundImage.jpg");
+    /*background-image: url("../img/backgroundImage.jpg");*/
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -49,7 +49,7 @@ body {
     font-weight: 600;
 }
 .navbar-brand img {
-    height: 3.15rem;
+    height: 5.15rem;
 }
 .nav-item,
 .flag-icon {    
